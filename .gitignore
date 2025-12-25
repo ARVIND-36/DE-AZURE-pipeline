@@ -1,0 +1,65 @@
+# ===============================
+# Environment Variables & Secrets
+# ===============================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.pfx
+secrets.json
+
+# ===============================
+# IDE & Editor Files
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Logs & Temporary Files
+# ===============================
+/logs/
+*.log
+*.tmp
+*.bak
+*.backup
+
+# ===============================
+# Data Files (Keep sample data)
+# ===============================
+/processed_data/
+/cache/
+*.parquet
+
+# ===============================
+# OS Files
+# ===============================
+Thumbs.db
+.Thumbs.db
+
+# ===============================
+# Azure & Git
+# ===============================
+*.publishsettings
+*.azureDevOpsToken
+*.user
