@@ -1,6 +1,6 @@
 # Adventure Works Data Pipeline
 
-Azure-based data engineering pipeline implementing Bronze and Silver layers for AdventureWorks dataset ingestion and transformation.
+End-to-end data engineering project implementing Bronze and Silver layers on Azure. Demonstrates config-driven ingestion, PySpark transformations, and medallion architecture.
 
 ## Architecture
 
@@ -54,7 +54,13 @@ The `git.json` file drives the entire ingestion process:
 
 ## Silver Layer - PySpark Transformation
 
+![Silver Transformation](./silver-pyspark-transformation/SILVER_TRANSFORMED.png)
+
 Data cleaning and standardization using PySpark. Implementation details in `silver-pyspark-transformation/`
+
+**Key Operations:** Date parsing, string concatenation, column splitting, type conversions, regex replacements, aggregations
+
+**Output:** Parquet format in silver/ container
 
 ## Project Structure
 
