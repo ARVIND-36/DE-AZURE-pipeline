@@ -1,4 +1,4 @@
-# Adventure Works Data Pipeline
+# Azure Data Engineering Pipeline
 
 End-to-end data engineering project implementing Bronze and Silver layers on Azure. Demonstrates config-driven ingestion, PySpark transformations, and medallion architecture.
 
